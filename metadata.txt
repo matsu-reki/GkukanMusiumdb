@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=gkukanmusiumdb
+qgisMinimumVersion=2.0
+description=Matsue G-Kukan Musium Databse edhitor
+version=0.1
+author=Hirofumi Hayashi(osgeo.jp)
+email=pica.hayashi@gmail.com
+
+about=松江G空間ミュージアムデータベースエディタ QGISを活用した歴史史料等のデータベース構築ツール システム機能 ・古地図オーバーレイ 現在の地図とユーザが指定する年代の古地図のオーバーレイを表示及び作業できる機能 ・資料データベース(写真、古地図、テキストデータ) 資料に位置情報等を付与してから、データベースに登録する機能 ・他システムからのデータのインポート 他のGISで作成されているデータのインポート機能 ・別途開発するWebシステムへのデータのエクスポート機能 ・管理機能 データを管理するための機能
+
+tracker=Hirofumi Hayashi
+repository=https://github.com/matsu-reki
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=Photo Musium ArcGIS archaic map
+
+homepage=https://github.com/matsu-reki
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

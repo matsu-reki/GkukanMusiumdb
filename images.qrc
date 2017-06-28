@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="musium">
+    <file>icons/MGMusium.png</file>
+  </qresource>
+</RCC>

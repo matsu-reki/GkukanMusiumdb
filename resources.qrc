@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/GkukanMusiumdb" >
+        <file>icons/MGMusium.png</file>
+    </qresource>
+</RCC>
